@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFF;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: "helvetica";
+}
+.bloc0{
+	display:flex;
+	justify-content: space-around;
+}
+.header{
+	margin:1%;
+	img{
+		height: 40px;
+	}
+}
+.navbar{
+	display: flex;
+	margin:2%;
+	a {
+		color: black;
+		text-decoration:none;
+		&:hover {
+			color: #F3976C;
+		}
+	}
+	li{
+		list-style-type:none;
+		margin-left: 70px;
+	}
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 30px;
+	color: white;
+	padding:10px;
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+.btn{
+	border:3px solid #F3976C;
+	background:#F3976C;
+	border-radius: 20px;
+	padding: 10px 40px 10px 40px;
+	margin:20px;
+	color:white;
+	text-decoration: none;
+	transition: all .3s ease-in-out;
+	font-size: 20px;
+	&:hover {
+		background:darken(#F3976C, 20%);
+		border: 3px solid darken(#F3976C, 20%); 
+		cursor: pointer;
+	}
+}
+.bloc6{
+	background:url(img/la-chouette-agence-banniere.jpg);
+}
+.texture{
+	background:url(img/texture-paper.png);
+	padding:40px;
+	p{
+		color:white;
+	}
+}
+.bloc7{
+	padding:80px;
+}
+#form{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+}
+.form-group{
+	text-align:center;
+	width:40%;
+	padding:10px;
+}
+.alignement{
+	align-self: center;
+	margin-bottom:5px;
+	padding:5px;
+}
+.form-control{
+	margin-top:5px;
+}
+footer{
+	background:#F3976C;
+	padding:20px;
+	p{
+		color:white;
+		line-height:25px;
+		margin:30px;
+		 }
+	a:hover{
+		color:darken(#F3976C, 20%);
+	}
+}
+.liens{
+	display:flex;
+	justify-content: center;
+	color:white;
+	a{
+		text-decoration: none;
+		color:white;
+		 }
+}
+.icones{
+	text-align: center;
+	color:white;
+	padding:30px;
+	.fa{
+		margin:10px;
+		color:white;
+		 }
+		 a{
+			text-decoration: none;
+			 }
+}
+.fa:hover{
+	color:darken(#F3976C, 20%);
+}
+@media (max-width: 767px) {
+	
+	.navbar{
+		flex-direction: column;
+		line-height:30px ;
+	}
+	.form-group{
+		width:120%;
+	}
+}

@@ -13,6 +13,8 @@ body {
 
 .header {
   margin: 1%; }
+  .header img {
+    height: 40px; }
 
 .navbar {
   display: flex;
@@ -28,7 +30,12 @@ body {
 
 .bloc1 {
   background: url("img/la-chouette-agence-banniere.jpg");
-  background-attachment: fixed; }
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.superposition {
+  background: url("img/texture-paper.png"); }
 
 .logo {
   text-align: center;
@@ -53,7 +60,8 @@ p {
   text-decoration: none;
   transition: all .3s ease-in-out; }
   .btn:hover {
-    color: red;
+    background: #e65613;
+    border: 3px solid #e65613;
     cursor: pointer; }
 
 .bloc2 p {
@@ -69,9 +77,6 @@ p {
   .org p {
     font-size: 15px; }
 
-.et-icon {
-  height: 50px; }
-
 h5 {
   text-align: center;
   font-size: 15px;
@@ -82,19 +87,28 @@ h5 {
 .bloc3 {
   background: url("img/image-de-presentation.bmp");
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 2%;
   text-align: center;
   padding: 10px; }
 
+.superposition2 {
+  background: url("img/texture-paper.png");
+  padding: 45px 10px 45px 10px;
+  margin: -10px;
+  display: flex;
+  justify-content: center; }
+
 .marketing {
-  background: #eaeaea;
+  background: url("img/texture-paper.png");
   padding-top: 20px;
-  width: 30%;
-  margin-left: 35%;
-  margin-top: 90px;
-  margin-bottom: 90px; }
+  width: 40%;
+  margin: 90px 0 90px 0; }
+  .marketing p {
+    color: white; }
   .marketing a {
-    color: black;
+    color: white;
     text-decoration: none; }
     .marketing a:hover {
       color: #F3976C; }
@@ -144,6 +158,8 @@ footer {
   footer p {
     color: white;
     line-height: 25px; }
+  footer a:hover {
+    color: #e65613; }
 
 h2 {
   font-size: 30px;
@@ -168,5 +184,25 @@ h2 {
     color: white; }
   .icones a {
     text-decoration: none; }
+
+.fa:hover {
+  color: #e65613; }
+
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    line-height: 30px; }
+
+  .fond {
+    flex-direction: column; }
+
+  .marketing {
+    width: 95%; }
+
+  .portfolio-row {
+    flex-direction: column; }
+
+  .port {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
