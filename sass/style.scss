@@ -27,6 +27,9 @@ body {
 			color: #F3976C;
 		}
 	}
+	ul{
+		display:flex;
+	}
 	li{
 		list-style-type:none;
 		margin-left: 70px;
@@ -210,6 +213,9 @@ h2{
 	.navbar{
 		flex-direction: column;
 		line-height:30px ;
+	}
+	ul{
+		flex-direction: column;
 	}
 	.fond{
 		flex-direction: column;

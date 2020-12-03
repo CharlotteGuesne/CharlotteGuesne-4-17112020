@@ -24,6 +24,8 @@ body {
     text-decoration: none; }
     .navbar a:hover {
       color: #F3976C; }
+  .navbar ul {
+    display: flex; }
   .navbar li {
     list-style-type: none;
     margin-left: 70px; }
@@ -192,6 +194,9 @@ h2 {
   .navbar {
     flex-direction: column;
     line-height: 30px; }
+
+  ul {
+    flex-direction: column; }
 
   .fond {
     flex-direction: column; }
