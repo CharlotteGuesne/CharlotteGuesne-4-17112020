@@ -59,17 +59,32 @@ p{
 	padding:30px;
 }
 .btn{
-	border:3px solid #F3976C;
-	background:#F3976C;
+	border:3px solid white;
+	background:white;
 	border-radius: 20px;
 	padding: 10px 40px 10px 40px;
-	color:white;
+	color: grey;
 	text-decoration: none;
-	transition: all .3s ease-in-out;
+	transform: scale(1);
+  	transition: transform 400ms;
 	&:hover {
 		background:darken(#F3976C, 20%);
 		border: 3px solid darken(#F3976C, 20%); 
 		cursor: pointer;
+		transform: scale(1.15);
+		a{
+			color:white;
+		}
+	}
+}
+button{
+	a{
+		color:grey;
+		font-size: 18px;
+		text-decoration: none;
+		&:hover{
+			color:white;
+		}
 	}
 }
 .bloc2 p{
