@@ -54,13 +54,11 @@ p {
     cursor: pointer; }
 
 .bloc6 {
-  background: url(img/la-chouette-agence-banniere.jpg); }
+  background: url(img/la-chouette-agence-banniere.jpg);
+  padding: 80px; }
 
-.texture {
-  background: url(img/texture-paper.png);
-  padding: 40px; }
-  .texture p {
-    color: white; }
+.texture p {
+  color: white; }
 
 .bloc7 {
   padding: 80px; }
