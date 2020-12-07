@@ -45,8 +45,8 @@ p{
 	text-align: center;
 }
 .btn{
-	border:3px solid #F3976C;
-	background:#F3976C;
+	border:3px solid #D34202;
+	background:#D34202;
 	border-radius: 20px;
 	padding: 10px 40px 10px 40px;
 	margin:20px;
@@ -56,8 +56,8 @@ p{
   	transition: transform 400ms;
 	font-size: 20px;
 	&:hover {
-		background:darken(#F3976C, 20%);
-		border: 3px solid darken(#F3976C, 20%); 
+		background:#F3976C;
+		border: 3px solid#F3976C; 
 		cursor: pointer;
 		transform: scale(1.15);
 	}
@@ -117,7 +117,7 @@ textarea:valid {
 	margin-top:5px;
 }
 footer{
-	background:#F3976C;
+	background:#D34202;
 	padding:20px;
 	p{
 		color:white;
@@ -126,7 +126,7 @@ footer{
 		margin:30px;
 		 }
 	a:hover{
-		color:darken(#F3976C, 20%);
+		color:#F3976C;
 	}
 }
 .liens{
@@ -152,7 +152,7 @@ footer{
 			 }
 }
 .fa:hover{
-	color:darken(#F3976C, 20%);
+	color:#F3976C;
 }
 @media (max-width: 767px) {
 	

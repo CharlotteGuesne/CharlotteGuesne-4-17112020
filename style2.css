@@ -40,8 +40,8 @@ p {
   text-align: center; }
 
 .btn {
-  border: 3px solid #F3976C;
-  background: #F3976C;
+  border: 3px solid #D34202;
+  background: #D34202;
   border-radius: 20px;
   padding: 10px 40px 10px 40px;
   margin: 20px;
@@ -51,8 +51,8 @@ p {
   transition: transform 400ms;
   font-size: 20px; }
   .btn:hover {
-    background: #e65613;
-    border: 3px solid #e65613;
+    background: #F3976C;
+    border: 3px solid #F3976C;
     cursor: pointer;
     transform: scale(1.15); }
 
@@ -107,7 +107,7 @@ textarea:valid {
   margin-top: 5px; }
 
 footer {
-  background: #F3976C;
+  background: #D34202;
   padding: 20px; }
   footer p {
     color: white;
@@ -115,7 +115,7 @@ footer {
     font-size: 20px;
     margin: 30px; }
   footer a:hover {
-    color: #e65613; }
+    color: #F3976C; }
 
 .liens {
   display: flex;
@@ -137,7 +137,7 @@ footer {
     text-decoration: none; }
 
 .fa:hover {
-  color: #e65613; }
+  color: #F3976C; }
 
 @media (max-width: 767px) {
   .navbar {
