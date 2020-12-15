@@ -11,9 +11,9 @@ body {
   display: flex;
   justify-content: space-around; }
 
-.header {
+.image {
   margin: 1%; }
-  .header img {
+  .image img {
     height: 50px; }
 
 .navbar {
@@ -21,7 +21,7 @@ body {
   margin: 2%; }
   .navbar a {
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none; }
     .navbar a:hover {
       color: #F3976C; }
@@ -32,22 +32,25 @@ body {
     margin-left: 70px; }
 
 .bloc1 {
-  background: url("../img/la-chouette-agence-banniere.jpg");
+  background: url("img/la-chouette-agence-banniere.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
 
 .superposition {
-  background: url("../img/texture-paper.png"); }
+  background: url("img/texture-paper.png"); }
 
 .logo {
   text-align: center;
   padding: 50px; }
+  .logo img {
+    height: 100px;
+    margin-top: 30px; }
 
 h1 {
   font-weight: 400;
-  font-size: 35px;
-  color: white;
+  font-size: 40px;
+  color: black;
   padding: 10px; }
 
 p {
@@ -55,10 +58,11 @@ p {
   padding: 30px; }
 
 .btn {
-  border: 3px solid white;
-  background: white;
+  border: 3px solid #F3976C;
+  background: #F3976C;
   border-radius: 20px;
   padding: 10px 40px 10px 40px;
+  margin-bottom: 30px;
   text-decoration: none;
   transform: scale(1);
   transition: transform 400ms; }
@@ -71,7 +75,7 @@ p {
       color: white; }
 
 button a {
-  color: #535353;
+  color: black;
   font-size: 20px;
   text-decoration: none; }
   button a:hover {
@@ -98,7 +102,7 @@ h5 {
   margin-top: -40px; }
 
 .bloc3 {
-  background: url("../img/image-de-presentation.jpg");
+  background: url("img/image-de-presentation.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,24 +111,24 @@ h5 {
   padding: 10px; }
 
 .superposition2 {
-  background: url("../img/texture-paper.png");
+  background: url("img/texture-paper.png");
   padding: 45px 10px 45px 10px;
   margin: -10px;
   display: flex;
   justify-content: center; }
 
 .marketing {
-  background: url("../img/texture-paper.png");
+  background: url("img/texture-paper.png");
   padding-top: 20px;
   width: 40%;
   margin: 90px 0 90px 0; }
   .marketing p {
-    color: white; }
+    color: black; }
   .marketing a {
-    color: white;
+    color: black;
     text-decoration: none; }
     .marketing a:hover {
-      color: #F3976C; }
+      color: white; }
 
 h6 {
   text-align: center;
@@ -136,10 +140,14 @@ h6 {
 
 .bloc4 {
   padding: 2%;
-  background: url("../img/lines-h2-bg.png"); }
+  background: url("img/lines-h2-bg.png"); }
   .bloc4 p {
     color: #333333;
     font-size: 25px; }
+
+h4 {
+  text-align: center;
+  margin-bottom: 40px; }
 
 .portfolio-row {
   display: flex;
@@ -157,27 +165,27 @@ h6 {
 h3 {
   text-align: center;
   line-height: 40px;
-  font-size: 35px;
+  font-size: 20px;
   margin: 5px 0 -15px 0; }
 
 .bloc5 {
-  background: url("../img/la-chouette-agence-banniere.jpg");
+  background: url("img/la-chouette-agence-banniere.jpg");
   text-align: center;
   padding: 120px 0px 140px 0px; }
 
 footer {
-  background: #D34202;
-  margin-top: -20px; }
+  background: #F3976C;
+  margin: -20px 0 0 0; }
   footer p {
-    color: white;
+    color: black;
     line-height: 25px;
     font-size: 20px; }
   footer a:hover {
-    color: #F3976C; }
+    color: white; }
 
 h2 {
   font-size: 30px;
-  color: white;
+  color: black;
   font-style: italic;
   line-height: 40px;
   padding-bottom: 40px; }
@@ -185,31 +193,46 @@ h2 {
 .liens {
   display: flex;
   justify-content: center;
-  color: white; }
+  color: black; }
   .liens a {
     text-decoration: none;
-    color: white; }
+    color: black; }
 
 .icones {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 25px; }
   .icones .fa {
     margin: 10px;
-    color: white; }
+    color: black; }
   .icones a {
     text-decoration: none; }
 
+.liens2 {
+  display: flex;
+  justify-content: center;
+  margin: -35px 0 0 0; }
+  .liens2 ul {
+    display: flex; }
+  .liens2 li {
+    list-style-type: none; }
+  .liens2 a {
+    color: black;
+    margin-right: 20px;
+    text-decoration: none; }
+    .liens2 a:hover {
+      color: white; }
+
 .fa:hover {
-  color: #F3976C; }
+  color: white; }
 
 @media (max-width: 767px) {
   .navbar {
     flex-direction: column;
-    line-height: 30px; }
-
-  ul {
-    flex-direction: column; }
+    line-height: 30px;
+    margin-right: 20px; }
+    .navbar ul {
+      flex-direction: column; }
 
   .fond {
     flex-direction: column; }

@@ -11,9 +11,9 @@ body {
   display: flex;
   justify-content: space-around; }
 
-.header {
+.image {
   margin: 1%; }
-  .header img {
+  .image img {
     height: 50px; }
 
 .navbar {
@@ -21,10 +21,12 @@ body {
   margin: 2%; }
   .navbar a {
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none; }
     .navbar a:hover {
       color: #F3976C; }
+  .navbar ul {
+    display: flex; }
   .navbar li {
     list-style-type: none;
     margin-left: 70px; }
@@ -32,7 +34,7 @@ body {
 h1 {
   font-weight: 400;
   font-size: 30px;
-  color: white;
+  color: black;
   padding: 10px;
   text-align: center; }
 
@@ -40,19 +42,20 @@ p {
   text-align: center; }
 
 .btn {
-  border: 3px solid #D34202;
-  background: #D34202;
+  border: 3px solid #F3976C;
+  background: #F3976C;
   border-radius: 20px;
   padding: 10px 40px 10px 40px;
   margin: 20px;
-  color: white;
+  color: black;
   text-decoration: none;
   transform: scale(1);
   transition: transform 400ms;
   font-size: 20px; }
   .btn:hover {
-    background: #F3976C;
-    border: 3px solid #F3976C;
+    background: #D34202;
+    border: 3px solid #D34202;
+    color: white;
     cursor: pointer;
     transform: scale(1.15); }
 
@@ -69,11 +72,11 @@ textarea:valid {
   border: 2px solid green; }
 
 .bloc6 {
-  background: url(../img/la-chouette-agence-banniere.jpg);
+  background: url(img/la-chouette-agence-banniere.jpg);
   padding: 80px; }
 
 .texture p {
-  color: white; }
+  color: black; }
 
 .bloc7 {
   padding: 80px; }
@@ -107,37 +110,52 @@ textarea:valid {
   margin-top: 5px; }
 
 footer {
-  background: #D34202;
+  background: #F3976C;
   padding: 20px; }
   footer p {
-    color: white;
+    color: black;
     line-height: 25px;
     font-size: 20px;
     margin: 30px; }
   footer a:hover {
-    color: #F3976C; }
+    color: white; }
 
 .liens {
   display: flex;
   justify-content: center;
-  color: white; }
+  color: black; }
   .liens a {
     text-decoration: none;
-    color: white; }
+    color: black; }
 
 .icones {
   text-align: center;
-  color: white;
+  color: black;
   padding: 30px;
   font-size: 25px; }
   .icones .fa {
     margin: 10px;
-    color: white; }
+    color: black; }
   .icones a {
     text-decoration: none; }
 
+.liens2 {
+  display: flex;
+  justify-content: center;
+  margin: -25px 0 0 0; }
+  .liens2 ul {
+    display: flex; }
+  .liens2 li {
+    list-style-type: none; }
+  .liens2 a {
+    color: black;
+    margin-right: 20px;
+    text-decoration: none; }
+    .liens2 a:hover {
+      color: white; }
+
 .fa:hover {
-  color: #F3976C; }
+  color: white; }
 
 @media (max-width: 767px) {
   .navbar {
