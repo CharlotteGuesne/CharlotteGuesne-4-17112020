@@ -81,7 +81,7 @@ textarea:valid {
 	border: 2px solid green;
 }
 .bloc6{
-	background:url(img/la-chouette-agence-banniere.jpg);
+	background:url(../img/la-chouette-agence-banniere.jpg);
 	padding:80px;
 }
 .texture{
@@ -183,7 +183,11 @@ footer{
 	
 	.navbar{
 		flex-direction: column;
-		line-height:30px ;
+		line-height:30px;
+		margin-right:20px;
+		ul{
+			flex-direction: column;
+		}
 	}
 	.form-group{
 		width:120%;
