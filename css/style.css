@@ -79,6 +79,19 @@ p {
   font-size: 25px;
   color: #333333; }
 
+.bloc2 h2 {
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  margin: 5px 0 -15px 0; }
+
+.bloc2 h3 {
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  color: #333333;
+  margin-top: -40px; }
+
 .fond {
   display: flex;
   justify-content: space-around; }
@@ -87,13 +100,6 @@ p {
   text-align: center; }
   .org p {
     font-size: 15px; }
-
-h5 {
-  text-align: center;
-  font-size: 15px;
-  font-style: italic;
-  color: #333333;
-  margin-top: -40px; }
 
 .bloc3 {
   background: url("../img/image-de-presentation.webp");
@@ -124,7 +130,14 @@ h5 {
     .marketing a:hover {
       color: white; }
 
-h6 {
+.bloc3 h3 {
+  font-size: 30px;
+  color: black;
+  font-style: italic;
+  line-height: 40px;
+  padding-bottom: 40px; }
+
+.bloc3 h4 {
   text-align: center;
   font-size: 15px;
   font-style: italic;
@@ -139,9 +152,19 @@ h6 {
     color: #333333;
     font-size: 25px; }
 
-h4 {
+.bloc4 h4 {
   text-align: center;
-  margin-bottom: 40px; }
+  font-size: 17px;
+  font-style: italic;
+  color: #333333;
+  margin: -40px 0 0 0px;
+  padding: 50px 0 90px 0; }
+
+.bloc4 h5 {
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  margin: 5px 0 -15px 0; }
 
 .portfolio-row {
   display: flex;
@@ -156,16 +179,20 @@ h4 {
   .port p {
     font-size: 20px; }
 
-h3 {
-  text-align: center;
-  line-height: 40px;
-  font-size: 20px;
-  margin: 5px 0 -15px 0; }
-
 .bloc5 {
   background: url("../img/la-chouette-agence-banniere.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   text-align: center;
   padding: 120px 0px 140px 0px; }
+
+.bloc5 h6 {
+  font-size: 30px;
+  color: black;
+  font-style: italic;
+  line-height: 40px;
+  padding-bottom: 40px; }
 
 footer {
   background: #F3976C;
@@ -176,13 +203,6 @@ footer {
     font-size: 20px; }
   footer a:hover {
     color: white; }
-
-h2 {
-  font-size: 30px;
-  color: black;
-  font-style: italic;
-  line-height: 40px;
-  padding-bottom: 40px; }
 
 .liens {
   display: flex;
